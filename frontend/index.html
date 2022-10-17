@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Taiury alexandre" />
+    <meta
+      name="keywords"
+      content="taiury, programador, fullstack, dev, developer, Software engineering, JavaScript"
+    />
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="/frontend/assets/icon-page-16.png"
+    />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="/frontend/assets/icon-page-32.png"
+    />
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="/frontend/assets/icon-page-96.png"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Home init -->
+    <section id="home" class="section">
+      <div class="home-content">
+        <div class="into-home-content">
+          <h3 class="text-bold">Seja bem-vindo!</h3>
+          <h1 class="text-bold">
+            Eu sou
+            <span id="my-name"><noscript>Taiury Alexandre</noscript></span>
+          </h1>
+          <div>
+            <p class="paragraph-tall text-bold">Desenvolvedor full stack</p>
+          </div>
+          <p>
+            Minha carreira na programação se deu início em fevereiro de 2020,
+            junto com a faculdade.<br />
+            Formado em análise e desenvolvimento de sistemas.<br />
+            Acredito que trocar experiencias nos engradece como profissional e
+            pessoa, projetos novos e desafiadores nos incentivam a melhorar e
+            isso é exatamente o que eu busco!
+          </p>
+          <button class="text-bold" onclick="window.location.href='#about-me'">
+            Mais sobre mim
+          </button>
+        </div>
+        <div class="home-image-content">
+          <aside class="navigation">
+            <nav>
+              <ul class="content-nav">
+                <li class="nav-icon-selected">
+                  <a href="#home">
+                    <img
+                      src="assets/images/home-icon.svg"
+                      alt="icone do uma casa"
+                    />
+                  </a>
+                </li>
+                <li class="nav-icon">
+                  <a href="#about-me">
+                    <img
+                      src="assets/images/about-me-icon.svg"
+                      alt="icone de uma pessoa"
+                    />
+                  </a>
+                </li>
+                <li class="nav-icon">
+                  <a href="#portfolio">
+                    <img
+                      src="assets/images/portfolio-icon.svg"
+                      alt="icone de uma maleta"
+                    />
+                  </a>
+                </li>
+                <li class="nav-icon">
+                  <a href="#contact">
+                    <img
+                      src="assets/images/contact-icon.svg"
+                      alt="icone de um aviãozinho de papel"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <!-- About me init -->
+    <section id="about-me" class="section white-bg">
+      <div class="about-me-content">
+        <div class="section-label">
+          <h1>Sobre mim</h1>
+        </div>
+        <h3 class="text-bold">
+          <span>Taiury Alexandre</span>, desenvolvedor full stack.
+        </h3>
+        <p>
+          Buscando me manter atualizado perante as demandas do mercado,
+          atualmente me encontro focado nas tecnologias que englobam o
+          ecossistema Javascript (Typescript incluso). <br />
+          Meu
+          <a
+            class="text-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.github.com/taiury"
+          >
+            Github
+          </a>
+          deixara mais claro com quais tecnologias eu me encontro alinhado no
+          momento.
+        </p>
+        <article class="article article-backend">
+          <div>
+            <img
+              src="/frontend/assets/images/backend-icon.svg"
+              alt="Icone de um terminal de comando"
+            />
+          </div>
+          <h6 class="paragraph-tall-bold">Back-end</h6>
+          <p>
+            Bancos de dados SQL e no-SQL, APIs, Server-side em geral.
+            Desenvolvimento de atividades relacionadas ao domínio da aplicação
+            me encantam como um todo, regras de negócios, são na minha visão a
+            vida de toda aplicação e talvez por isso eu goste tanto.
+          </p>
+        </article>
+        <article class="article article-frontend">
+          <div>
+            <img
+              src="/frontend/assets/images/frantend-icon.svg"
+              alt="icone de uma interface grafica"
+            />
+          </div>
+          <h6 class="paragraph-tall-bold">Front-end</h6>
+          <p>
+            Seja usando frameworks, bibliotecas, HTML, CSS, Javascript ou caindo
+            em temas como CSR, SSR, SSG, SEO, o desenvolvimento front-end, sai
+            da caixa de pura estética e passa a entregar o melhor produto e
+            performance ao usuário final, bom eu vejo assim ao menos.
+          </p>
+        </article>
+        <article class="article article-mobile">
+          <div>
+            <img
+              src="/frontend/assets/images/mobile-icon.svg"
+              alt="icone de um celular"
+            />
+          </div>
+          <h6 class="paragraph-tall-bold">Mobile</h6>
+          <p>
+            A melhoria de performance e experiência do usuário por parte de
+            aplicações que usam os recursos do dispositivo sem passar por
+            intermediários (ex: browsers), junto com a facilidade de clicar em
+            um ícone e ter acesso ao produto que queira consumir é na minha
+            opinião é o diferencial do desenvolvimento mobile.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- Portfolio init -->
+    <section id="portfolio" class="section white-bg">
+      <div class="portfolio-content">
+        <div class="section-label">
+          <h1>Portfólio</h1>
+        </div>
+        <aside class="portfolio-options">
+          <nav>
+            <ul class="portfolio-options-list">
+              <li class="option-all">
+                <button
+                  id="btn-option-all"
+                  class="btn-options btn-options-selected"
+                >
+                  All
+                </button>
+              </li>
+              <li class="option-frontend">
+                <button id="btn-option-frontend" class="btn-options">
+                  Front-end
+                </button>
+              </li>
+              <li class="option-backend">
+                <button id="btn-option-backend" class="btn-options">
+                  Back-end
+                </button>
+              </li>
+              <li class="option-mobile">
+                <button id="btn-option-mobile" class="btn-options">
+                  Mobile
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <div class="projects-container">
+          <button class="project-btn-left">
+            <img
+              src="/frontend/assets/images/arrow-btn-project-left.svg"
+              alt="Uma seta para a esqueda"
+            />
+          </button>
+          <button class="project-btn-right">
+            <img
+              src="/frontend/assets/images/arrow-btn-project-right.svg"
+              alt="Uma seta para a direita"
+            />
+          </button>
+          <div id="project-list" class="list-projects"></div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="contact-content">
+        <p class="text-bold">Links</p>
+        <div class="contact-links">
+          <button
+            id="btn-link-github"
+            class="btn-link-contact paragraph-tall text-bold"
+          >
+            <img
+              src="/frontend/assets/images/icon-github.svg"
+              alt="icone de um gato em um circulo"
+            />
+            Github
+          </button>
+          <button
+            id="btn-link-email"
+            class="btn-link-contact paragraph-tall text-bold"
+          >
+            <img
+              src="/frontend/assets/images/icon-email.svg"
+              alt="icone de uma carta"
+            />
+            taiuryalexandre.c@gmail.com
+          </button>
+          <button
+            id="btn-link-twitter"
+            class="btn-link-contact paragraph-tall text-bold"
+          >
+            <img
+              src="/frontend/assets/images/icon-twitter.svg"
+              alt="icone de uma passaro"
+            />
+            @AlexandreTaiury
+          </button>
+        </div>
+      </div>
+    </footer>
+    <!-- </div> -->
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
