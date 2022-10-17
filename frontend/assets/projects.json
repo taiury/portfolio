@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Patterns GOF Typescript",
+    "imageUrl": "https://blog.rocketseat.com.br/content/images/size/w2000/2019/03/5_ferramentas_em_alta_para_desenvolvedores_React.png",
+    "imageDescription": "Um desenho de uma pessoa na frente do computador, programando.",
+    "type": "backend",
+    "color": "dark",
+    "repositoryName": "typescript-design-pattern-gof"
+  }
+]
